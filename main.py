@@ -1118,7 +1118,7 @@ class FF_CLIENT(threading.Thread):
             'Authorization': f'Bearer {JWT_TOKEN}',
             'X-Unity-Version': '2018.4.11f1',
             'X-GA': 'v1 1',
-            'ReleaseVersion': 'OB50',
+            'ReleaseVersion': 'OB51',
             'Content-Type': 'application/x-www-form-urlencoded',
             'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; G011A Build/PI)',
             'Host': 'client.ind.freefiremobile.com',
@@ -1171,7 +1171,7 @@ class FF_CLIENT(threading.Thread):
     def TOKEN_MAKER(self,OLD_ACCESS_TOKEN , NEW_ACCESS_TOKEN , OLD_OPEN_ID , NEW_OPEN_ID,id):
         headers = {
             'X-Unity-Version': '2018.4.11f1',
-            'ReleaseVersion': 'OB50',
+            'ReleaseVersion': 'OB51',
             'Content-Type': 'application/x-www-form-urlencoded',
             'X-GA': 'v1 1',
             'Content-Length': '928',
